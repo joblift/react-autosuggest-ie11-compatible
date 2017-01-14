@@ -1,13 +1,13 @@
 {
-  "name": "react-autosuggest",
-  "version": "8.0.0",
-  "description": "WAI-ARIA compliant React autosuggest component",
+  "name": "react-autosuggest-ie11-compatible",
+  "version": "8.0.4",
+  "description": "WAI-ARIA compliant React autosuggest component, compatible with ie11",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moroshko/react-autosuggest.git"
+    "url": "https://github.com/JacksonKearl/react-autosuggest-ie11-compatible.git"
   },
-  "author": "Misha Moroshko <michael.moroshko@gmail.com>",
+  "author": "Jackson Kearl <jkearl@mit.edu>",
   "scripts": {
     "start": "mkdir -p demo/dist && npm run copy-static-files && node server",
     "lint": "eslint src test demo/src demo/standalone/app.js server.js webpack.*.js",

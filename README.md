@@ -7,6 +7,14 @@
 
 # React Autosuggest
 
+## Overview
+
+This is an Internet Explorer 11 compatible version of moroshko's react-autosuggest.
+This version solves the issue experienced in ie11 in which a user's input is not registered in async
+applications (particularly those featuring a debounce stage).
+
+We apply the fix given by [postlight](https://github.com/postlight/react-autosuggest) in [this thread](https://github.com/moroshko/react-autosuggest/pull/261).
+
 ## Demo
 
 Check out the [Homepage](http://react-autosuggest.js.org) and the [Codepen examples](http://codepen.io/collection/DkkYaQ).

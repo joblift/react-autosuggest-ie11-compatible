@@ -74,8 +74,8 @@ export default class Autosuggest extends Component {
         throw new Error('\'inputProps\' must have \'value\'.');
       }
 
-      if (!inputProps.hasOwnProperty('onChange')) {
-        throw new Error('\'inputProps\' must have \'onChange\'.');
+      if (!inputProps.hasOwnProperty('onInput')) {
+        throw new Error('\'inputProps\' must have \'onInput\'.');
       }
     },
     shouldRenderSuggestions: PropTypes.func,
@@ -297,10 +297,10 @@ export default class Autosuggest extends Component {
   }
 
   maybeCallOnChange(event, newValue, method) {
-    const { value, onChange } = this.props.inputProps;
+    const { value, onInput } = this.props.inputProps;
 
     if (newValue !== value) {
-      onChange(event, { newValue, method });
+      onInput(event, { newValue, method });
     }
   }
 
@@ -451,7 +451,7 @@ export default class Autosuggest extends Component {
           this.onSuggestionsClearRequested();
         }
       },
-      onChange: event => {
+      onInput: event => {
         const { value } = event.target;
         const shouldRender = shouldRenderSuggestions(value);
 
