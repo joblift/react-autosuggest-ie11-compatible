@@ -1,5 +1,5 @@
 # React Autosuggest (IE11 compatible)
-[![Build Status](https://travis-ci.org/JacksonKearl/react-autosuggest-ie11-compatible.svg?branch=master)](https://travis-ci.org/JacksonKearl/react-autosuggest-ie11-compatible)
+[![Build Status](https://travis-ci.org/JobLift/react-autosuggest-ie11-compatible.svg?branch=master)](https://travis-ci.org/JobLift/react-autosuggest-ie11-compatible)
 
 ## Overview
 

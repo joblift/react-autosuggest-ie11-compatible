@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JacksonKearl/react-autosuggest-ie11-compatible.git"
+    "url": "https://github.com/Joblift/react-autosuggest-ie11-compatible.git"
   },
-  "author": "Jackson Kearl <jkearl@mit.edu>",
+  "author": "Maja Jaensch <maja.jaensch@joblift.de>",
   "scripts": {
     "start": "mkdir -p demo/dist && npm run copy-static-files && node server",
     "lint": "eslint src test demo/src demo/standalone/app.js server.js webpack.*.js",
