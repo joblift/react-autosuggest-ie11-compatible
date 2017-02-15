@@ -1,6 +1,6 @@
 {
   "name": "react-autosuggest-ie11-compatible",
-  "version": "8.0.5",
+  "version": "8.0.6",
   "description": "WAI-ARIA compliant React autosuggest component, compatible with ie11",
   "main": "dist/index.js",
   "repository": {
