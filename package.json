@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/Joblift/react-autosuggest-ie11-compatible.git"
   },
+  "publishConfig": {
+    "registry": "https://nexus.jol.pm/content/repositories/npm-hosted/"
+  },
   "author": "Maja Jaensch <maja.jaensch@joblift.de>",
   "scripts": {
     "start": "mkdir -p demo/dist && npm run copy-static-files && node server",
